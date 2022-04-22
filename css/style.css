@@ -1,0 +1,165 @@
+/* Цвета которые будут задействованы в макете */
+
+:root {
+  /* Body */
+  --header-body: #ffffff;
+  --hero-body: #2f303a;
+  --first-section-body: #e5e5e5;
+  --secont-section-body: #f5f4fa;
+  --footer-body: #2f303a;
+
+  /* Text */
+  --hero-text: #ffffff;
+  --logo-text-black: #000000;
+  --logo-text-blue: #2196f3;
+  --header-text: #212121;
+  --paragraph-text: #757575;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+  color: #757575;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--logo-text-blue);
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--logo-text-blue);
+}
+
+a:focus {
+  color: var(--logo-text-blue);
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--header-text);
+}
+
+/* !!!Header style!!! */
+
+.cap {
+  background-color: var(--header-body);
+}
+
+/* Logo */
+.logo {
+  color: var(--logo-text-black);
+  font-size: 26px;
+  font-family: "Raleway", sans-serif;
+}
+
+.logo-blue {
+  color: var(--logo-text-blue);
+}
+
+.logo:visited {
+  color: var(--logo-text-black);
+}
+
+.logo-blue:visited {
+  color: var(--logo-text-blue);
+}
+
+/* Nav Bar */
+.navigationtabs {
+  color: var(--header-text);
+}
+
+.navigationtabs .link {
+  color: inherit;
+}
+
+.navigationtabs .link.active {
+  color: var(--logo-text-blue);
+}
+
+.navigationtabs .link:hover,
+.navigationtabs .link:focus {
+  color: var(--logo-text-blue);
+}
+
+/* Mail and Phone */
+.mail {
+  color: var(--paragraph-text);
+}
+
+.phone {
+  color: var(--paragraph-text);
+}
+
+/* !!!Main!!! */
+/* Hero Section */
+.hero-section {
+  background-color: var(--hero-body);
+}
+
+.hero-text {
+  color: var(--hero-text);
+}
+
+.hero-button {
+  color: #ffffff;
+  background-color: var(--logo-text-blue);
+  border: none;
+}
+
+/* !!!Footer!!! */
+
+.basement {
+  background-color: var(--footer-body);
+}
+
+/* Footerlogo */
+.footer-logo {
+  color: var(--header-body);
+  font-size: 26px;
+  font-family: "Raleway", sans-serif;
+}
+
+.footer-logo-blue {
+  color: var(--logo-text-blue);
+}
+
+.footer-logo:visited {
+  color: var(--header-body);
+}
+
+.footer-logo-blue:visited {
+  color: var(--logo-text-blue);
+}
+
+/* Adress */
+.office {
+  color: #ffffff;
+}
+
+.footer-mail {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-phone {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Categories */
+
+.categories-button {
+  border: none;
+}

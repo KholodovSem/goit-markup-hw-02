@@ -5,29 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Шапка -->
-    <header>
+    <header class="cap">
       <nav>
-        <a href="/">WebStudio</a>
-        <ul>
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <a href="index.html" class="logo"
+          ><span class="logo-blue">Web</span>Studio</a
+        >
+        <ul class="navigationtabs">
+          <li><a href="" class="link active">Студия</a></li>
+          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
       <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="callto:+380961111111">+38 096 111 11 11</a></li>
+        <li>
+          <a href="mailto:info@devstudio.com" class="mail"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="callto:+380961111111" class="phone">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
     <!-- Уникальный контент -->
     <main>
       <!-- Главный текст -->
-      <section>
-        <h1 lang="ru">Эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+      <section class="hero-section">
+        <h1 lang="ru" class="hero-text">
+          Эффективные решения для вашего бизнеса
+        </h1>
+        <button type="button" class="hero-button">Заказать услугу</button>
       </section>
       <!-- Чем мы занимаемся -->
       <section>
@@ -259,21 +276,29 @@
       </section>
     </main>
     <!-- Футер -->
-    <footer>
-      <a href="/">WebStudio</a>
+    <footer class="basement">
+      <a href="index.html" class="footer-logo">
+        <span class="footer-logo-blue">Web</span> Studio</a
+      >
       <address>
         <ul>
           <li>
-            <a href="https://goo.gl/maps/u381TuipqdCtVo7J7"
+            <a href="https://goo.gl/maps/u381TuipqdCtVo7J7" class="office"
               >г. Киев, пр-т Леси Украинки, 26</a
             >
           </li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="callto:+380961111111">+38 096 111 11 11</a></li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="footer-mail"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="callto:+380961111111" class="footer-phone"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
       </address>
     </footer>
   </body>
 </html>
-
-ы ы ы ы
