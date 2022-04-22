@@ -69,7 +69,8 @@ h3 {
   color: var(--logo-text-blue);
 }
 
-.logo:visited {
+.logo:visited,
+.logo:hover {
   color: var(--logo-text-black);
 }
 
@@ -137,7 +138,8 @@ h3 {
   color: var(--logo-text-blue);
 }
 
-.footer-logo:visited {
+.footer-logo:visited,
+.footer-logo:hoover {
   color: var(--header-body);
 }
 
