@@ -63,6 +63,7 @@ h3 {
   color: var(--logo-text-black);
   font-size: 26px;
   font-family: "Raleway", sans-serif;
+  font-weight: 700;
 }
 
 .logo-blue {
@@ -85,6 +86,8 @@ h3 {
 
 .navigationtabs .link {
   color: inherit;
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .navigationtabs .link.active {
@@ -99,10 +102,14 @@ h3 {
 /* Mail and Phone */
 .mail {
   color: var(--paragraph-text);
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .phone {
   color: var(--paragraph-text);
+  font-weight: 500;
+  font-size: 14px;
 }
 
 /* !!!Main!!! */
@@ -113,14 +120,47 @@ h3 {
 
 .hero-text {
   color: var(--hero-text);
+  font-size: 24px;
+  font-weight: 900;
 }
 
 .hero-button {
   color: #ffffff;
   background-color: var(--logo-text-blue);
   border: none;
+  font-weight: 500;
+  font-size: 16px;
 }
 
+.second-section-header {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.second-section-paragraph {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.examples {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.team-header {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 400;
+}
 /* !!!Footer!!! */
 
 .basement {
@@ -164,4 +204,16 @@ h3 {
 
 .categories-button {
   border: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.work-exampl-header {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.work-example-paragraph {
+  font-size: 16px;
+  font-weight: 400;
 }
