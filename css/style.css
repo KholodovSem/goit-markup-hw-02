@@ -56,6 +56,7 @@ h3 {
 
 .cap {
   background-color: var(--header-body);
+  line-height: 1.17;
 }
 
 /* Logo */
@@ -122,6 +123,7 @@ h3 {
   color: var(--hero-text);
   font-size: 24px;
   font-weight: 900;
+  line-height: 1.36;
 }
 
 .hero-button {
@@ -130,26 +132,31 @@ h3 {
   border: none;
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.875;
 }
 
 .second-section-header {
   font-size: 14px;
   font-weight: 700;
+  line-height: 1.14;
 }
 
 .second-section-paragraph {
   font-size: 14px;
   font-weight: 400;
+  line-height: 1.714;
 }
 
 .examples {
   font-size: 36px;
   font-weight: 700;
+  line-height: 1.171;
 }
 
 .team-header {
   font-size: 36px;
   font-weight: 700;
+  line-height: 1.171;
 }
 
 .name {
@@ -172,6 +179,7 @@ h3 {
   color: var(--header-body);
   font-size: 26px;
   font-family: "Raleway", sans-serif;
+  line-height: 1.17;
 }
 
 .footer-logo-blue {
@@ -179,25 +187,24 @@ h3 {
 }
 
 .footer-logo:visited,
-.footer-logo:hoover {
+.footer-logo:hover {
   color: var(--header-body);
-}
-
-.footer-logo-blue:visited {
-  color: var(--logo-text-blue);
 }
 
 /* Adress */
 .office {
   color: #ffffff;
+  line-height: 1.714;
 }
 
 .footer-mail {
   color: rgba(255, 255, 255, 0.6);
+  line-height: 1.714;
 }
 
 .footer-phone {
   color: rgba(255, 255, 255, 0.6);
+  line-height: 1.714;
 }
 
 /* Categories */
@@ -206,14 +213,17 @@ h3 {
   border: none;
   font-size: 16px;
   font-weight: 500;
+  line-height: 1.625;
 }
 
 .work-exampl-header {
   font-size: 18px;
   font-weight: 700;
+  line-height: 2;
 }
 
 .work-example-paragraph {
   font-size: 16px;
   font-weight: 400;
+  line-height: 1.875;
 }
