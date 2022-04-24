@@ -191,9 +191,11 @@ h3 {
 }
 
 /* Adress */
+
 .office {
   color: #ffffff;
   line-height: 1.71;
+  font-style: normal;
 }
 
 .footer-mail,
@@ -202,6 +204,7 @@ h3 {
   line-height: 1.71;
   font-size: 14px;
   letter-spacing: 0.03em;
+  font-style: normal;
 }
 
 /* Categories */
