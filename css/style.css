@@ -21,15 +21,6 @@ body {
   color: #757575;
 }
 
-button {
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: var(--logo-text-blue);
-  border: none;
-}
-
 a {
   text-decoration: none;
 }
@@ -121,9 +112,12 @@ h3 {
 
 .hero-text {
   color: var(--hero-text);
-  font-size: 24px;
   font-weight: 900;
   line-height: 1.36;
+  font-size: 44px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .hero-button {
@@ -133,29 +127,29 @@ h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.87;
+  cursor: pointer;
 }
 
 .second-section-header {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .second-section-paragraph {
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
-.examples {
+.section-title {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.17;
-}
-
-.team-header {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .name {
@@ -196,23 +190,36 @@ h3 {
   line-height: 1.71;
 }
 
-.footer-mail {
-  color: rgba(255, 255, 255, 0.6);
-  line-height: 1.71;
-}
-
+.footer-mail,
 .footer-phone {
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.71;
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 
 /* Categories */
 
 .categories-button {
+  font-family: "Roboto", sans-serif;
   border: none;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
+}
+
+.categories-button:hover,
+.categories-button:focus {
+  background-color: var(--logo-text-blue);
+  color: var(--hero-text);
+}
+
+.categories-button.current {
+  background-color: var(--logo-text-blue);
+  color: var(--hero-text);
 }
 
 .work-exampl-header {
